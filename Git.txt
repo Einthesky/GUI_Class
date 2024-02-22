@@ -1,0 +1,11 @@
+git add .
+
+git config --global user.email "email@gmail.com"
+
+git config --global user.name "account"
+
+git commit –m "First Commit"
+
+git push -u origin main
+
+
