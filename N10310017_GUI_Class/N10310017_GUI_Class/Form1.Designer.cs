@@ -28,54 +28,90 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.label班級 = new System.Windows.Forms.Label();
+            this.label姓名 = new System.Windows.Forms.Label();
+            this.label學號 = new System.Windows.Forms.Label();
+            this.bntButton = new System.Windows.Forms.Button();
+            this.bntBMI = new System.Windows.Forms.Button();
+            this.button按鈕 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // label班級
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("微軟正黑體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(220, 37);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "多遊系三年甲班";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label班級.AutoSize = true;
+            this.label班級.Font = new System.Drawing.Font("微軟正黑體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label班級.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.label班級.Location = new System.Drawing.Point(12, 9);
+            this.label班級.Name = "label班級";
+            this.label班級.Size = new System.Drawing.Size(220, 37);
+            this.label班級.TabIndex = 0;
+            this.label班級.Text = "多遊系三年甲班";
+            this.label班級.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
+            // label姓名
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("微軟正黑體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label2.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label2.Location = new System.Drawing.Point(684, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 37);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "謝明凱";
+            this.label姓名.AutoSize = true;
+            this.label姓名.Font = new System.Drawing.Font("微軟正黑體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label姓名.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.label姓名.Location = new System.Drawing.Point(684, 9);
+            this.label姓名.Name = "label姓名";
+            this.label姓名.Size = new System.Drawing.Size(104, 37);
+            this.label姓名.TabIndex = 1;
+            this.label姓名.Text = "謝明凱";
             // 
-            // label3
+            // label學號
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("微軟正黑體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label3.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label3.Location = new System.Drawing.Point(339, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(177, 37);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "N10310017";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.label學號.AutoSize = true;
+            this.label學號.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label學號.Font = new System.Drawing.Font("微軟正黑體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label學號.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.label學號.Location = new System.Drawing.Point(339, 9);
+            this.label學號.Name = "label學號";
+            this.label學號.Size = new System.Drawing.Size(177, 37);
+            this.label學號.TabIndex = 2;
+            this.label學號.Text = "N10310017";
+            this.label學號.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // bntButton
+            // 
+            this.bntButton.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.bntButton.Location = new System.Drawing.Point(19, 132);
+            this.bntButton.Name = "bntButton";
+            this.bntButton.Size = new System.Drawing.Size(158, 70);
+            this.bntButton.TabIndex = 3;
+            this.bntButton.Text = "按鈕";
+            this.bntButton.UseVisualStyleBackColor = false;
+            // 
+            // bntBMI
+            // 
+            this.bntBMI.Location = new System.Drawing.Point(19, 208);
+            this.bntBMI.Name = "bntBMI";
+            this.bntBMI.Size = new System.Drawing.Size(158, 46);
+            this.bntBMI.TabIndex = 4;
+            this.bntBMI.Text = "BMI計算";
+            this.bntBMI.UseVisualStyleBackColor = true;
+            // 
+            // button按鈕
+            // 
+            this.button按鈕.Location = new System.Drawing.Point(390, 230);
+            this.button按鈕.Name = "button按鈕";
+            this.button按鈕.Size = new System.Drawing.Size(235, 120);
+            this.button按鈕.TabIndex = 5;
+            this.button按鈕.Text = "請按我一下";
+            this.button按鈕.UseVisualStyleBackColor = true;
+            this.button按鈕.Click += new System.EventHandler(this.button按我一下_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button按鈕);
+            this.Controls.Add(this.bntBMI);
+            this.Controls.Add(this.bntButton);
+            this.Controls.Add(this.label學號);
+            this.Controls.Add(this.label姓名);
+            this.Controls.Add(this.label班級);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -85,9 +121,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label班級;
+        private System.Windows.Forms.Label label姓名;
+        private System.Windows.Forms.Label label學號;
+        private System.Windows.Forms.Button bntButton;
+        private System.Windows.Forms.Button bntBMI;
+        private System.Windows.Forms.Button button按鈕;
     }
 }
 
