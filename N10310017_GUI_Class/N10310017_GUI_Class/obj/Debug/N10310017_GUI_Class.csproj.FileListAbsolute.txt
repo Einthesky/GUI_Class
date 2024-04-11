@@ -9,3 +9,4 @@ C:\Users\MEGAS\Desktop\GUI_Class\N10310017_GUI_Class\N10310017_GUI_Class\obj\Deb
 C:\Users\MEGAS\Desktop\GUI_Class\N10310017_GUI_Class\N10310017_GUI_Class\obj\Debug\N10310017_GUI_Class.csproj.CoreCompileInputs.cache
 C:\Users\MEGAS\Desktop\GUI_Class\N10310017_GUI_Class\N10310017_GUI_Class\obj\Debug\N10310017_GUI_Class.exe
 C:\Users\MEGAS\Desktop\GUI_Class\N10310017_GUI_Class\N10310017_GUI_Class\obj\Debug\N10310017_GUI_Class.pdb
+C:\Users\MEGAS\Desktop\GUI_Class\N10310017_GUI_Class\N10310017_GUI_Class\obj\Debug\N10310017_GUI_Class.FotmTextBox.resources

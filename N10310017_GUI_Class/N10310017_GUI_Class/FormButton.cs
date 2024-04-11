@@ -56,5 +56,11 @@ namespace N10310017_GUI_Class
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form form = new FotmTextBox();
+            form.Show();
+        }
     }
 }
