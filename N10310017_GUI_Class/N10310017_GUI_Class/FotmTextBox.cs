@@ -63,5 +63,10 @@ namespace N10310017_GUI_Class
             int sum = a - b;
             label10.Text = sum.ToString();
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

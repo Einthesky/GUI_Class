@@ -35,6 +35,7 @@
             this.bntBMI = new System.Windows.Forms.Button();
             this.button按鈕 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label班級
@@ -94,7 +95,7 @@
             // 
             // button按鈕
             // 
-            this.button按鈕.Location = new System.Drawing.Point(390, 230);
+            this.button按鈕.Location = new System.Drawing.Point(19, 299);
             this.button按鈕.Name = "button按鈕";
             this.button按鈕.Size = new System.Drawing.Size(235, 120);
             this.button按鈕.TabIndex = 5;
@@ -112,11 +113,22 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(657, 386);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "期中考";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button按鈕);
             this.Controls.Add(this.bntBMI);
@@ -140,6 +152,7 @@
         private System.Windows.Forms.Button bntBMI;
         private System.Windows.Forms.Button button按鈕;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button1;
     }
 }
 
