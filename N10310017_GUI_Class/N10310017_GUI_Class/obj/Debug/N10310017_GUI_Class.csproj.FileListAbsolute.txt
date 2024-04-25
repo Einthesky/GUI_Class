@@ -12,3 +12,4 @@ C:\Users\MEGAS\Desktop\GUI_Class\N10310017_GUI_Class\N10310017_GUI_Class\obj\Deb
 C:\Users\MEGAS\Desktop\GUI_Class\N10310017_GUI_Class\N10310017_GUI_Class\obj\Debug\N10310017_GUI_Class.FotmTextBox.resources
 C:\Users\MEGAS\Desktop\GUI_Class\N10310017_GUI_Class\N10310017_GUI_Class\obj\Debug\N10310017_GUI_Class.Main_Form.resources
 C:\Users\MEGAS\Desktop\GUI_Class\N10310017_GUI_Class\N10310017_GUI_Class\obj\Debug\N10310017_GUI_Class.MidExam_CtoF.resources
+C:\Users\MEGAS\Desktop\GUI_Class\N10310017_GUI_Class\N10310017_GUI_Class\obj\Debug\N10310017_GUI_Class.TryCatch.resources

@@ -45,5 +45,11 @@ namespace N10310017_GUI_Class
             Form form = new Main_Form();
             form.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form form = new TryCatch();
+            form.Show();
+        }
     }
 }
