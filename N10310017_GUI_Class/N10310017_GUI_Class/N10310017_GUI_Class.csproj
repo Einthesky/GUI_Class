@@ -58,6 +58,18 @@
     <Compile Include="FormButton.Designer.cs">
       <DependentUpon>FormButton.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormGameFinalPasw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGameFinalPasw.Designer.cs">
+      <DependentUpon>FormGameFinalPasw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTimer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTimer.Designer.cs">
+      <DependentUpon>FormTimer.cs</DependentUpon>
+    </Compile>
     <Compile Include="FotmTextBox.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +107,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormButton.resx">
       <DependentUpon>FormButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGameFinalPasw.resx">
+      <DependentUpon>FormGameFinalPasw.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTimer.resx">
+      <DependentUpon>FormTimer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FotmTextBox.resx">
       <DependentUpon>FotmTextBox.cs</DependentUpon>

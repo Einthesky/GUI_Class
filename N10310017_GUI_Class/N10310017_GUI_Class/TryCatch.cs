@@ -39,5 +39,10 @@ namespace N10310017_GUI_Class
                 MessageBox.Show("執行到最後");
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -174,9 +174,9 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(146, 234);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(11, 12);
+            this.label6.Size = new System.Drawing.Size(8, 12);
             this.label6.TabIndex = 14;
-            this.label6.Text = "+";
+            this.label6.Text = "/";
             // 
             // label7
             // 

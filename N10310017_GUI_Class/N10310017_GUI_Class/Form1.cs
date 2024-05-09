@@ -51,5 +51,17 @@ namespace N10310017_GUI_Class
             Form form = new TryCatch();
             form.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form form = new FormTimer();
+            form.Show();
+        }
+
+        private void btnGameFinalPasw_Click(object sender, EventArgs e)
+        {
+            Form form = new FormGameFinalPasw();
+            form.Show(); 
+        }
     }
 }
