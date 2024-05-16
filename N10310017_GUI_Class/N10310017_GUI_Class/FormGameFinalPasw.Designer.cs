@@ -60,18 +60,19 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(201, 148);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(131, 12);
+            this.label1.Size = new System.Drawing.Size(149, 12);
             this.label1.TabIndex = 2;
-            this.label1.Text = "已隨機產生0~100數字，";
+            this.label1.Text = "點擊開始遊戲將數字初始化";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(201, 177);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(143, 12);
+            this.label2.Size = new System.Drawing.Size(149, 12);
             this.label2.TabIndex = 3;
-            this.label2.Text = "提示：請輸入0~100正整數";
+            this.label2.Text = "點擊開始遊戲將數字初始化";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox1
