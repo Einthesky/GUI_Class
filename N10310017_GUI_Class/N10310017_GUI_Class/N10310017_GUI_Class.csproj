@@ -58,6 +58,12 @@
     <Compile Include="FormButton.Designer.cs">
       <DependentUpon>FormButton.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormFinal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFinal.Designer.cs">
+      <DependentUpon>FormFinal.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormGameFinalPasw.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormButton.resx">
       <DependentUpon>FormButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFinal.resx">
+      <DependentUpon>FormFinal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormGameFinalPasw.resx">
       <DependentUpon>FormGameFinalPasw.cs</DependentUpon>

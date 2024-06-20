@@ -13,7 +13,8 @@ namespace N10310017_GUI_Class
     public partial class FormGameFinalPasw : Form
     {
         int min = 0, max = 0;
-        
+        int result;
+
         public FormGameFinalPasw()
         {
             InitializeComponent();
@@ -22,7 +23,7 @@ namespace N10310017_GUI_Class
         private void button1_Click(object sender, EventArgs e)
         {
             Random r = new Random();
-            int result = r.Next(100);
+            result = r.Next(100);
             MessageBox.Show(result.ToString());
             label1.Text = "已隨機產生0~100的數字，請在下方做答";
             label2.Text = string.Format("請輸入(0)~(1)之間的數值", min, max);
@@ -30,23 +31,28 @@ namespace N10310017_GUI_Class
 
         private void button2_Click(object sender, EventArgs e)
         {
+
             try
             {
+                int answer = result;
+
                 int input = Int32.Parse(textBox1.Text);
-                if (input == this.answer)
+                if (input == answer)
                 {
                     MessageBox.Show("恭喜答對");
                 }
-                else if(input < this.answer)
+                else if(input < answer)
                 {
                     this.min = input;
                 }
-                else if(input > this.answer)
+                else if(input > answer)
                 {
                     this.max = input;
                 }
-                label2.Text = String.Format("請輸入{0}~{1}之間的數值, min, max);
-            } catch(Exception e1) {
+                label2.Text = String.Format("請輸入{0}~{1}之間的數值", min, max);
+            } 
+            
+            catch(Exception) {
                 MessageBox.Show("輸入錯誤，請輸入數字");
             }
         }
